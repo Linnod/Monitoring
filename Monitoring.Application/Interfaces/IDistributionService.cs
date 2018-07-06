@@ -27,5 +27,12 @@ namespace Monitoring.Application.Interfaces
         /// <param name="createDistributionModel">Модель создания распределения</param>
         /// <returns>Созданное распределение</returns>
         DistributionModel CreateDistribution(CreateDistributionModel createDistributionModel);
+
+        /// <summary>
+        /// Удалить распределение
+        /// </summary>
+        /// <param name="deleteDistributionModel">Модель удаления распределения</param>
+        /// <returns>Удалённые распределение</returns>
+        DistributionModel DeleteDistribution(DeleteDistributionModel deleteDistributionModel);
     }
 }

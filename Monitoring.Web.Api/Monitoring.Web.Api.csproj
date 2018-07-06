@@ -15,6 +15,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Monitoring.DataLayer\Monitoring.DataLayer.csproj" />
+    <ProjectReference Include="..\Monitoring.Web.Api.Contracts\Monitoring.Web.Api.Contracts.csproj" />
   </ItemGroup>
 
 </Project>

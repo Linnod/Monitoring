@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monitoring.Application", "M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monitoring.Application.Contracts", "Monitoring.Application.Contracts\Monitoring.Application.Contracts.csproj", "{4BAE811B-CC7F-4575-AEB2-25C0DF9FD523}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monitoring.Web.Api", "Monitoring.Web.Api\Monitoring.Web.Api.csproj", "{570FE2E2-EF45-4C59-A777-62B04564CF89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Monitoring.Web.Api", "Monitoring.Web.Api\Monitoring.Web.Api.csproj", "{570FE2E2-EF45-4C59-A777-62B04564CF89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monitoring.Web.Api.Contracts", "Monitoring.Web.Api.Contracts\Monitoring.Web.Api.Contracts.csproj", "{386C9159-AD0A-4E81-AEC5-0EF3D2C555FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{570FE2E2-EF45-4C59-A777-62B04564CF89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{570FE2E2-EF45-4C59-A777-62B04564CF89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{570FE2E2-EF45-4C59-A777-62B04564CF89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{386C9159-AD0A-4E81-AEC5-0EF3D2C555FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{386C9159-AD0A-4E81-AEC5-0EF3D2C555FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{386C9159-AD0A-4E81-AEC5-0EF3D2C555FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{386C9159-AD0A-4E81-AEC5-0EF3D2C555FB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

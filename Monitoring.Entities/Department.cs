@@ -1,5 +1,4 @@
 ﻿using Monitoring.Entities.Interfaces;
-using System.Collections.Generic;
 
 namespace Monitoring.Entities
 {
@@ -26,6 +25,6 @@ namespace Monitoring.Entities
         /// <summary>
         /// Направление
         /// </summary>
-        public ICollection<Direction> Directions { get; set; } = new List<Direction>();
+        public Direction Direction { get; set; }
     }
 }

@@ -24,7 +24,7 @@ namespace Monitoring.DataLayer
                 (
                     d =>
                         d.AcademicYear == year
-                        && d.Department.Directions.Any(dir => dir.Id == directionId)
+                        && d.Department.Direction.Id == directionId
                         && d.BackgroundLevel == backgroundLevel
                 );
 

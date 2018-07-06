@@ -1,4 +1,5 @@
 ﻿using Monitoring.Application.Contracts.Distribution;
+using System.Threading.Tasks;
 
 namespace Monitoring.Application.Interfaces
 {
@@ -12,27 +13,27 @@ namespace Monitoring.Application.Interfaces
         /// </summary>
         /// <param name="model">Модель получения распределения</param>
         /// <returns>Распределение</returns>
-        DistributionModel GetDistribution(GetDistributionModel model);
+        Task<DistributionModel> GetDistributionAsync(GetDistributionModel model);
 
         /// <summary>
         /// Обновить распределение
         /// </summary>
         /// <param name="updateDistributionModel">Модель обновления распределения</param>
         /// <returns>Обновлённое распределение</returns>
-        DistributionModel UpdateDistribution(UpdateDistributionModel updateDistributionModel);
+        Task<DistributionModel> UpdateDistributionAsync(UpdateDistributionModel updateDistributionModel);
 
         /// <summary>
         /// Создать распределение
         /// </summary>
         /// <param name="createDistributionModel">Модель создания распределения</param>
         /// <returns>Созданное распределение</returns>
-        DistributionModel CreateDistribution(CreateDistributionModel createDistributionModel);
+        Task<DistributionModel> CreateDistributionAsync(CreateDistributionModel createDistributionModel);
 
         /// <summary>
         /// Удалить распределение
         /// </summary>
         /// <param name="deleteDistributionModel">Модель удаления распределения</param>
         /// <returns>Удалённые распределение</returns>
-        DistributionModel DeleteDistribution(DeleteDistributionModel deleteDistributionModel);
+        Task<DistributionModel> DeleteDistributionAsync(DeleteDistributionModel deleteDistributionModel);
     }
 }

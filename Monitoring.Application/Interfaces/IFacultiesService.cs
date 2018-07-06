@@ -1,5 +1,6 @@
 ﻿using Monitoring.Application.Contracts.Faculty;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace Monitoring.Application.Interfaces
 {
@@ -13,26 +14,26 @@ namespace Monitoring.Application.Interfaces
         /// </summary>
         /// <param name="addFacultyModel">Модель для добавления факультета</param>
         /// <returns>Добавленный факультет</returns>
-        FacultyModel AddFaculty(AddFacultyModel addFacultyModel);
+        Task<FacultyModel> AddFacultyAsync(AddFacultyModel addFacultyModel);
 
         /// <summary>
         /// Удалить факультет
         /// </summary>
         /// <param name="removeFacultyModel">Модель для удаления факультета</param>
         /// <returns>Удалённый факультет</returns>
-        FacultyModel RemoveFaculty(RemoveFacultyModel removeFacultyModel);
+        Task<FacultyModel> RemoveFacultyAsync(RemoveFacultyModel removeFacultyModel);
 
         /// <summary>
         /// Получить факультет
         /// </summary>
         /// <param name="getFacultyModel">Модель для получения факультета</param>
         /// <returns>Факультет</returns>
-        FacultyModel GetFaculty(GetFacultyModel getFacultyModel);
+        Task<FacultyModel> GetFacultyAsync(GetFacultyModel getFacultyModel);
 
         /// <summary>
         /// Пулучить все факультеты
         /// </summary>
         /// <returns>Факультеты</returns>
-        ICollection<FacultyModel> GetFaculties();
+        Task<ICollection<FacultyModel>> GetFacultiesAsync();
     }
 }

@@ -1,11 +1,11 @@
 ﻿using System;
 
-namespace Monitoring.Helpers
+namespace Monitoring.Helpers.String
 {
     /// <summary>
     /// Вспомогательный класс для конвертации строк
     /// </summary>
-    public static class StringParseExtensions
+    public static class ParseExtensions
     {
         /// <summary>
         /// Сконвертировать в <see cref="int?"/>

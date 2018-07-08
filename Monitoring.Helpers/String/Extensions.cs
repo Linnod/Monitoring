@@ -1,9 +1,9 @@
-﻿namespace Monitoring.Helpers
+﻿namespace Monitoring.Helpers.String
 {
     /// <summary>
     /// Вспомогательный класс для работы со строками
     /// </summary>
-    public static class StringExtensions
+    public static class Extensions
     {
         /// <summary>
         /// Вернуть пустую строку, если исходная - null, либо - исходную

@@ -1,4 +1,5 @@
-﻿using Monitoring.Application.Contracts.Department;
+﻿using Monitoring.Application.Contracts.Common;
+using Monitoring.Application.Contracts.Department;
 
 namespace Monitoring.Application.Contracts.Distribution
 {

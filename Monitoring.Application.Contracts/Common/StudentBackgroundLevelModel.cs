@@ -1,4 +1,4 @@
-﻿namespace Monitoring.Application.Contracts
+﻿namespace Monitoring.Application.Contracts.Common
 {
     public enum StudentBackgroundLevelModel
     {

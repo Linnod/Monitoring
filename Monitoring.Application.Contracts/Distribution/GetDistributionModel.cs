@@ -1,4 +1,6 @@
-﻿namespace Monitoring.Application.Contracts.Distribution
+﻿using Monitoring.Application.Contracts.Common;
+
+namespace Monitoring.Application.Contracts.Distribution
 {
     /// <summary>
     /// Модель для получения распределения

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Monitoring.Application.Contracts.Common;
+using System;
 using System.Collections.Generic;
 using System.Text;
 

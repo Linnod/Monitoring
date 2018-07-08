@@ -1,7 +1,9 @@
-﻿namespace Monitoring.Application.Contracts.ContingentMovement
+﻿using Monitoring.Application.Contracts.Common;
+
+namespace Monitoring.Application.Contracts.ContingentMovement
 {
     /// <summary>
-    /// Базовая модель изменения кол-ва мест студентов
+    /// Базовая модель изменения кол-ва студентов
     /// </summary>
     public abstract class ChangeStudentsQuantityModelBase
     {

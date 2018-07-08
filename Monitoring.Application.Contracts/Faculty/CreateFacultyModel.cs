@@ -1,9 +1,9 @@
 ﻿namespace Monitoring.Application.Contracts.Faculty
 {
     /// <summary>
-    /// Модель для добавления факультета
+    /// Модель добавления факультета
     /// </summary>
-    public class AddFacultyModel
+    public class CreateFacultyModel
     {
         /// <summary>
         /// Название факультета

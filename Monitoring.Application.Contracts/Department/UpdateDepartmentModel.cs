@@ -1,12 +1,9 @@
-﻿using Monitoring.Application.Contracts.Direction;
-using Monitoring.Application.Contracts.Faculty;
-
-namespace Monitoring.Application.Contracts.Department
+﻿namespace Monitoring.Application.Contracts.Department
 {
     /// <summary>
-    /// Кафедра
+    /// Модель обновления кафедры
     /// </summary>
-    public class DepartmentModel
+    public class UpdateDepartmentModel
     {
         /// <summary>
         /// Идентификатор
@@ -21,11 +18,11 @@ namespace Monitoring.Application.Contracts.Department
         /// <summary>
         /// Факультет
         /// </summary>
-        public FacultyModel Faculty { get; set; }
+        public long FacultyId { get; set; }
 
         /// <summary>
         /// Направление
         /// </summary>
-        public DirectionModel Direction { get; set; }
+        public long DirectionId { get; set; }
     }
 }

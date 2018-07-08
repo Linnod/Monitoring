@@ -1,7 +1,7 @@
 ﻿namespace Monitoring.Application.Contracts.Faculty
 {
     /// <summary>
-    /// Модель для получения факультета
+    /// Модель получения факультета
     /// </summary>
     public class GetFacultyModel
     {
@@ -9,5 +9,10 @@
         /// Идентификатор
         /// </summary>
         public long Id { get; set; }
+
+        /// <summary>
+        /// Название
+        /// </summary>
+        public string Name { get; set; }
     }
 }

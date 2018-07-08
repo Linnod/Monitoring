@@ -1,4 +1,6 @@
-﻿namespace Monitoring.Application.Contracts.ContingentMovement
+﻿using Monitoring.Application.Contracts.Common;
+
+namespace Monitoring.Application.Contracts.ContingentMovement
 {
     /// <summary>
     /// Модель для перевода студентов

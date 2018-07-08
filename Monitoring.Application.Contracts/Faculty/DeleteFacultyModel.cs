@@ -1,9 +1,9 @@
 ﻿namespace Monitoring.Application.Contracts.Faculty
 {
     /// <summary>
-    /// Модель для удаления факультета
+    /// Модель удаления факультета
     /// </summary>
-    public class RemoveFacultyModel
+    public class DeleteFacultyModel
     {
         /// <summary>
         /// Идентификатор

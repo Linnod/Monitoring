@@ -14,14 +14,14 @@ namespace Monitoring.Application.Interfaces
         /// </summary>
         /// <param name="addFacultyModel">Модель для добавления факультета</param>
         /// <returns>Добавленный факультет</returns>
-        Task<FacultyModel> AddFacultyAsync(AddFacultyModel addFacultyModel);
+        Task<FacultyModel> AddFacultyAsync(CreateFacultyModel addFacultyModel);
 
         /// <summary>
         /// Удалить факультет
         /// </summary>
         /// <param name="removeFacultyModel">Модель для удаления факультета</param>
         /// <returns>Удалённый факультет</returns>
-        Task<FacultyModel> RemoveFacultyAsync(RemoveFacultyModel removeFacultyModel);
+        Task<FacultyModel> RemoveFacultyAsync(DeleteFacultyModel removeFacultyModel);
 
         /// <summary>
         /// Получить факультет
